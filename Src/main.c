@@ -214,7 +214,7 @@ int main(void)
 	else
 	{
 		printf("\n\rDevinfo product_id:%s,devName:%s,devSerc:%s",g_DevInfo.productId, g_DevInfo.devName, g_DevInfo.devSerc);
-		osThreadDef(shadowTask, exhibitor_shadow_task, osPriorityAboveNormal, 1, 6144);
+		osThreadDef(shadowTask, exhibitor_shadow_task, osPriorityAboveNormal, 1, 4096);
 		shadowTaskHandle = osThreadCreate(osThread(shadowTask), NULL);
 		printf("\n\rUser mode");
 	}

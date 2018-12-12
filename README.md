@@ -31,4 +31,4 @@ MIT License 协议许可。
 
 
 ### SDK接口说明
-### 关于 SDK 的更多使用方式及接口了解, 请访问腾讯云C-SDK[官方 WiKi](https://github.com/tencentyun/qcloud-iot-sdk-embedded-c/wiki)
+#### 关于 SDK 的更多使用方式及接口了解, 请访问腾讯云C-SDK[文档平台](https://cloud.tencent.com/document/product/634)及[官方WiKi](https://github.com/tencentyun/qcloud-iot-sdk-embedded-c/wiki)
